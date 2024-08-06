@@ -95,9 +95,9 @@ h6 {
   font-size: 0.9rem;
 }
 
-a {
+/* a {
   color: white;
-}
+} */
 
 .sign-up-container {
   display: flex;
@@ -161,6 +161,11 @@ span {
   font-size: 0.8rem;
 }
 
+p,
+button {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .pwd-wrong {
   color: red;
 }
@@ -182,5 +187,20 @@ form {
 }
 
 .sign-up-bottom {
+  display: flex;
+  flex-direction: column;
   height: 33%;
+  padding: 40px;
+  gap: 20px;
+}
+
+.btn-create {
+  width: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px rgb(211, 211, 211);
+}
+
+.btn-create:hover {
+  cursor: pointer;
 }
