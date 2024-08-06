@@ -46,6 +46,7 @@ Photo by <a href="https://unsplash.com/@oskarssylwan?utm_content=creditCopyText&
                       type="text"
                       id="first_name"
                       name="firstname"
+                      placeholder="e.g. Thor"
                       required
                     />
                   </p>
@@ -57,6 +58,7 @@ Photo by <a href="https://unsplash.com/@oskarssylwan?utm_content=creditCopyText&
                       type="text"
                       id="last_name"
                       name="lastname"
+                      placeholder="e.g. Odinson"
                       required
                     />
                   </p>
@@ -66,7 +68,13 @@ Photo by <a href="https://unsplash.com/@oskarssylwan?utm_content=creditCopyText&
                     <label for="email">
                       <span>EMAIL</span>
                     </label>
-                    <input type="email" id="email" name="useremail" required />
+                    <input
+                      type="email"
+                      id="email"
+                      name="useremail"
+                      placeholder="e.g. ThorOdinson@gmail.com"
+                      required
+                    />
                   </p>
                   <p>
                     <label for="telephone">
@@ -76,6 +84,7 @@ Photo by <a href="https://unsplash.com/@oskarssylwan?utm_content=creditCopyText&
                       type="tel"
                       id="telephone"
                       name="telephone"
+                      placeholder="e.g. 000-000-0000"
                       required
                     />
                   </p>
@@ -86,17 +95,20 @@ Photo by <a href="https://unsplash.com/@oskarssylwan?utm_content=creditCopyText&
                       <span>PASSWORD</span>
                     </label>
                     <input
+                      class="password"
                       type="password"
                       id="password"
                       name="password"
                       required
                     />
+                    <span class="pwd-wrong">* Passwords do not match</span>
                   </p>
                   <p>
                     <label for="conf_password">
                       <span>CONFIRM PASSWORD</span>
                     </label>
                     <input
+                      class="password"
                       type="password"
                       id="conf_password"
                       name="confpassword"

@@ -148,11 +148,19 @@ span {
   font-size: 0.8rem;
 }
 
+.pwd-wrong {
+  color: red;
+}
+
 input {
   width: 250px;
   padding: 2px;
   border-radius: 5px;
   border: 1px solid #e5e7eb;
+}
+
+.password:invalid {
+  border-color: red;
 }
 
 form {
