@@ -91,3 +91,31 @@ h6 {
   width: 60%;
   background-color: rgb(223, 229, 234);
 }
+
+.sign-up-top {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: flex-start;
+  height: 40%;
+  gap: 15px;
+  padding: 40px;
+  padding-top: 130px;
+  border: 1px solid black;
+}
+
+.placeholder-text {
+  font-weight: 700;
+  font-size: 1.3rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sign-up-middle {
+  height: 20%;
+  border: 1px solid black;
+}
+
+.sign-up-bottom {
+  height: 40%;
+  border: 1px solid black;
+}
